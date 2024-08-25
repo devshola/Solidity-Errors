@@ -8,9 +8,9 @@ This is a simple Solidity voting smart contract that allows voters to maintain a
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. 
 The contract has 3 functions as listed below.
 
-- vote: allows the voters that has been added at the constructor level to vote. If voted before, you cannot vote again and you cannot vote before the voter before you.
-- voters: This function allows for a voter to be searched for. 
-- indexing: finds the address of a voter by it's position.
+- ```vote```: allows the voters that has been added at the constructor level to vote. If voted before, you cannot vote again and you cannot vote before the voter before you.
+- ```voters```: This function allows for a voter to be searched for. 
+- ```indexing```: finds the address of a voter by it's position.
 
 ## Getting Started
 
