@@ -2,12 +2,12 @@ import { ethers } from "hardhat";
 
 async function main() {
 
-  const Voting = await ethers.deployContract("Voting");
+  const PrimeCounter = await ethers.deployContract("PrimeCounter");
 
-  await Voting.waitForDeployment();
+  await PrimeCounter.waitForDeployment();
 
   console.log(
-    `MetaERC20 contract deployed to ${Voting.target}`
+    `PrimeCounter contract deployed to ${PrimeCounter.target}`
   );
 }
 
